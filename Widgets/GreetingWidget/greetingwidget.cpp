@@ -11,8 +11,8 @@ GreetingWidget::GreetingWidget(QWidget *parent) :
     ui->label->setAutoFillBackground(true);
     ui->label->setPalette(palette);
 
-    ui->start_button->setMaximumSize(QSize(this->height() / 2, this->width() / 1.2));
-    ui->start_button->setMinimumSize(QSize(this->height() / 2, this->width() / 1.2));
+    ui->start_button->setMaximumSize(QSize(this->height() / 0.8, this->width() / 0.6));
+    ui->start_button->setMinimumSize(QSize(this->height() / 0.8, this->width() / 0.6));
     ui->start_button->setStyleSheet("border-image: url(:/image/Resource/button_start.png) stretch; ");
 }
 
